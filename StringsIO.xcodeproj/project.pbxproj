@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2179A271F0940D000190148 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D2179A261F0940D000190148 /* main.c */; };
+		D2179A2E1F0944D300190148 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D2179A2D1F0944D300190148 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		D2179A231F0940D000190148 /* StringsIO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringsIO; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2179A261F0940D000190148 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D2179A2D1F0944D300190148 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		D2179A1A1F0940D000190148 = {
 			isa = PBXGroup;
 			children = (
+				D2179A2D1F0944D300190148 /* README.md */,
 				D2179A251F0940D000190148 /* StringsIO */,
 				D2179A241F0940D000190148 /* Products */,
 			);
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2179A2E1F0944D300190148 /* README.md in Sources */,
 				D2179A271F0940D000190148 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
